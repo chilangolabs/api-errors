@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "@chilangolabs/eslint-config",
+    "@chilangolabs/eslint-config/node"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@chilangolabs/api-errors",
+  "description": "Error objects that are designed to be easily handled by @chilangolabs/api error handling middleware and surface useful status codes",
+  "version": "1.0.0",
+  "author": "Rodrigo Moreno <rodrigo@chilangolabs.com>",
+  "contributors": [
+    "Christian Ceciliano <christian@chilangolabs.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chilangolabs/api-errors.git"
+  },
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha test/*.test.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@chilangolabs/eslint-config": "^1.0.0",
+    "eslint": "^5.10.0",
+    "mocha": "^5.2.0"
+  }
+}
